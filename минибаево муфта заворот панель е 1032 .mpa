@@ -1,0 +1,3123 @@
+; MAC Programmer import/export file, format 2
+
+[Project]
+CreateTime=20190913
+ModTime=20190913
+Doc=
+ObjectId=0
+SupportsLoadable=TRUE
+PLCDriver=befx
+PLCProtocol=Melsec FX CPU
+PLCModel=Melsec FX CPU
+Pattern=Solid
+LineWidth=1
+TextBlockFontSize=7
+GraphBlockZoom=2
+DefaultObjectBgColor=16777215
+DefaultObjectFgColor=0
+IONaming=
+Terminal=Bepp30mKB_150
+CtrlUnit=
+CtrlUnitVersion=
+DistrCompany=Mitsubishi Electric
+ProductName=E-Designer
+ProductVersion=7.52 Build 344
+ColorScheme=
+ShowTerminalAround=TRUE
+Uid=
+Pwd=
+TCPIPAdress=
+TCPIPTransferPort=0
+TCPIPMACCtrlPort=0
+DefaultBDTPStation=0
+UseAlarmStack=TRUE
+PLCDriver2=
+PLCProtocol2=
+PLCModel2=
+IONaming2=
+OPCDriverProgID=BEFX.FX
+OPCDriverProgID2=
+OPCDriverConfigurationFileName=OPCDriverConfig1.cfg
+OPCDriverConfigurationFileName2=
+Driver1Version=4.12.05
+Driver2Version=
+
+    [[FontMapTable]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+
+        [[[FontMap]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        LanguageIndex=0
+
+            [[[[MapFont]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Index=0
+            Height=16
+            Italic=FALSE
+            Underline=FALSE
+            Bold=FALSE
+            FaceName=Arial
+            Name=
+
+            [[[[MapFont]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Index=1
+            Height=14
+            Italic=FALSE
+            Underline=FALSE
+            Bold=FALSE
+            FaceName=Arial
+            Name=
+
+            [[[[MapFont]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Index=2
+            Height=8
+            Italic=FALSE
+            Underline=FALSE
+            Bold=FALSE
+            FaceName=Fixed Bitmap Narrow
+            Name=
+
+            [[[[MapFont]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Index=3
+            Height=5
+            Italic=FALSE
+            Underline=FALSE
+            Bold=FALSE
+            FaceName=Fixed Bitmap
+            Name=
+
+Font=TrueType_2,8x8,0,0,0,0
+
+    [[Setup]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+
+        [[[SetupIndex]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        IO_0=
+        IO_Name_0=
+        IO_1=
+        IO_Name_1=
+        IO_2=
+        IO_Name_2=
+        IO_3=
+        IO_Name_3=
+        IO_4=
+        IO_Name_4=
+        IO_5=
+        IO_Name_5=
+        IO_6=
+        IO_Name_6=
+        IO_7=
+        IO_Name_7=
+
+        [[[SetupSystemSignals]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        IODisplay=
+        IODisplay_Name=
+        IONewDisplay=
+        IONewDisplay_Name=
+        IOBeep=
+        IOBeep_Name=
+        IONoProtCtrl=
+        IONoProtCtrl_Name=
+        IOBacklight=
+        IOBacklight_Name=
+        IOCursorCtrl=
+        IOCursorCtrl_Name=
+        IORecipeCtrl=
+        IORecipeCtrl_Name=
+        IOCurrentRecipe=
+        IOCurrentRecipe_Name=
+        IOLibraryIndex=
+        IOLibraryIndex_Name=
+        Commands=
+        IOCursorMove=
+        IOCursorMove_Name=
+        IOCurrentRecipeDiretory=
+        IOCurrentRecipeDiretory_Name=
+        IOPrinterStatus=
+        IOPrinterStatus_Name=
+        IODimBackLight=
+        IODimBackLight_Name=
+        IOContrast=
+        IOContrast_Name=
+
+        [[[SetupClock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        UseTermClock=0
+        DumpToDevice=FALSE
+        IODump=
+        IODump_Name=
+        Interval=60
+        DateFormat=YY-MM-DD
+        TimeFormat=HH:MM:SS
+        StartWDay=Sunday
+        StartOrderWDay=Last
+        StartMonth=March
+        StartHour=2
+        StartAdjust=1
+        EndWDay=Sunday
+        EndOrderWDay=Last
+        EndMonth=October
+        EndHour=3
+        EndAdjust=-1
+        DumpToDevice2=FALSE
+        IODump2=
+        IODump2_Name=
+        Interval2=60
+        TimeZone=00:00
+        UseTimeServer=FALSE
+        TimeServerName=undefined
+        TimeServerInterval=60
+
+        [[[SetupCountry]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Language=English
+        CharacterSet=Swedish
+
+        [[[SetupOnline]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        OnlineTimeCh=TRUE
+
+        [[[SetupAlarm]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        IOActive=
+        IOActive_Name=
+        IOUnAck=
+        IOUnAck_Name=
+        Symbol=Unacknowledged
+        ListLength=1
+        IOListClear=
+        IOListClear_Name=
+        ListClearReset=FALSE
+        Backlight=On
+        AlarmCursorColor=0
+        IOEnableAlarms=
+        IOEnableAlarms_Name=
+        DefaultFont=8x16
+        SendEmail=Always
+        StoreFirst=TRUE
+        Font=TrueType_3,8x8,0,0,0,0
+
+        [[[SetupUI]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Beep=TRUE
+        Repeat=TRUE
+        ScreenSaveTime=0
+        KeyDelayTime=500
+        TrendStorage=StoreChanged
+        Delimiter=Semicolon
+
+        [[[SetupPrinter]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Handshake=XON/XOFF
+        NewLine=CR/LF
+        PageLength=60
+        GrSize=Single
+        GrOrientation=Portrait
+        TextOrientation=Portrait
+        PrinterType=StandardText
+        PrinterPort=NoProtTranspPrinter
+        PaperType=A4
+        ScreenDump=Normal
+        IOPrinterDisable=
+        IOPrinterDisable_Name=
+        Networkpath=
+        Username=
+        Password=
+        ColorPrint=Monochrome
+        IOFormFeedPrinter=
+        IOFormFeedPrinter_Name=
+
+        [[[PLCPort]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Port=None
+        Baudrate=9600
+        Parity=Even
+        StopBits=1
+        DataBits=7
+
+        [[[NetPort]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Port=None
+        Baudrate=9600
+        Parity=None
+        StopBits=1
+        DataBits=8
+
+        [[[PTNPort]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Port=RS422
+        Baudrate=9600
+        Parity=Even
+        StopBits=1
+        DataBits=7
+        Station=0
+
+        [[[SetupDataBuffert]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+
+        [[[SetupDisk]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+
+        [[[SetupExpansionPorts]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Card1Type=IFC-CFET
+        Card2Type=Not used
+
+            [[[[SetupCardPBDP]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            IOAreaSize=32
+            EightBitDevsPerByte=TRUE
+
+            [[[[SetupCardPBDP]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            IOAreaSize=32
+            EightBitDevsPerByte=TRUE
+
+            [[[[SetupCardIFC128E]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            StartIO=
+            StartIO_Name=
+            NumberOfKeys=0
+            AllKeysOnExp=FALSE
+
+            [[[[SetupCardIFC64E]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            StartIO=
+            StartIO_Name=
+            StartIOLed=
+            StartIOLed_Name=
+
+            [[[[SetupCardMemory]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Use=Backup
+            Manufacturer=AMD
+            Size=4MB
+
+
+        [[[SetupModem]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        ControlBlockReg=
+        ControlBlockReg_Name=
+        Init=AT &f &K0 E0 Q0 V1
+        DialMode=Tone
+        TimeOut=30
+        PhoneNo_0=
+        PhoneNo_1=
+        PhoneNo_2=
+        PhoneNo_3=
+        PhoneNo_4=
+        PhoneNo_5=
+        PhoneNo_6=
+        PhoneNo_7=
+        PhoneNo_8=
+        PhoneNo_9=
+
+        [[[PortSel]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        PrinterPort=None
+        NoProtPort=None
+        HMIToolsPort=RS232
+        PLCPort=RS422
+        TranspModePort=RS232
+        TCPIPConn1Port=IFC_CFET
+        TCPIPConn2Port=None
+        ModemPort=None
+        PLC2Port=None
+        KeyNetPort=None
+
+        [[[RS232]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Baudrate=9600
+        Parity=Even
+        StopBits=1
+        DataBits=7
+        Connection=RS232
+
+        [[[RS422]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Baudrate=9600
+        Parity=Even
+        StopBits=1
+        DataBits=7
+        Connection=RS422
+
+        [[[SetupNoProt]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        NoProtCtrl=
+        NoProtCtrl_Name=
+        NoProtOn=
+        NoProtOn_Name=
+
+        [[[NetServices]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+
+            [[[[NetServiceWWWSvr]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=FALSE
+            NetServicePort=80
+            UserName=
+
+            [[[[NetServiceSMTPClnt]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Address_1=
+            Address_2=
+            Address_3=
+            Address_4=
+            Address_5=
+            Address_6=
+            Address_7=
+            Address_8=
+            Address_9=
+            Address_10=
+            Address_11=
+            Address_12=
+            Address_13=
+            Address_14=
+            Address_15=
+            Address_16=
+            NetServiceEnabled=FALSE
+            NetServicePort=25
+            MailServer=
+            MyEmailAddress=
+            Connection=TCP/IP Connection 1
+            Authentication=FALSE
+            UserName=
+            Password=
+
+            [[[[NetServiceFTPSvr]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=FALSE
+            NetServicePort=21
+            DataPort=20
+            PreLoginText=
+            PostLoginText=
+            RequestLogin=FALSE
+            ConnectionTimeOut=10
+
+            [[[[NetServiceTransparentMode]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=FALSE
+            NetServicePort=6004
+            Protocol=TCP
+
+            [[[[NetServiceTerminalCtl]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=TRUE
+            NetServicePort=6001
+            RequestAuthentication=FALSE
+
+            [[[[NetServiceBDTPClnt]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=FALSE
+            NetServicePort=6002
+            CtrlRegIO=
+            CtrlRegIO_Name=
+            DataRegIO=
+            DataRegIO_Name=
+            ClockSync=TRUE
+            ClockServer=1
+            BDTPServer_1=
+            BDTPServer_2=
+            BDTPServer_3=
+            BDTPServer_4=
+            BDTPServer_5=
+            BDTPServer_6=
+            BDTPServer_7=
+            BDTPServer_8=
+            BDTPServer_9=
+            BDTPServer_10=
+            BDTPServer_11=
+            BDTPServer_12=
+            BDTPServer_13=
+            BDTPServer_14=
+            BDTPServer_15=
+            BDTPServer_16=
+
+            [[[[NetServiceBDTPSvr]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=FALSE
+            NetServicePort=6002
+            DataRegIO=
+            DataRegIO_Name=
+            ClockSync=TRUE
+            NetServiceMaxClients=8
+
+            [[[[NetServiceAPLTR]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=TRUE
+            NetServicePort=6000
+
+            [[[[NetServiceRemoteAccess]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            NetServiceEnabled=FALSE
+            NetServicePort=5800
+            NetServicePort=5900
+            ViewPassword=
+            FullAccessPassword=
+
+        [[[NetConnections]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+
+            [[[[NetConn]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            ConnectionName=
+            ConfigurationType=Manual
+            NetInterface=Ethernet
+            TerminalAddress=192.168.1.1
+            DNS1=0.0.0.0
+            DNS2=0.0.0.0
+            Gateway=0.0.0.0
+            Subnetmask=255.255.255.0
+            ConnectionNumber=1
+            ConnectionName=
+            ConfigurationType=Manual
+            TerminalAddress=192.168.1.1
+            DNS1=0.0.0.0
+            DNS2=0.0.0.0
+            Gateway=0.0.0.0
+            Subnetmask=255.255.255.0
+            ConnectionNumber=1
+            SerialProtocol=PPP
+            Security=PAP
+            UseVJCompression=TRUE
+            UseLogonScript=FALSE
+            UserName=
+            Password=
+            ModemEnabled=FALSE
+            ModemDisconnectIdle=0
+            ModemTelephoneNumber=
+            ModemSetupString=
+            ActAsServer=0
+            RequestRemoteAddress=TRUE
+            RequestedRemoteAddress=0.0.0.0
+            OldRequestedRemoteAddress=192.168.98.2
+            RequestLocalAddress=TRUE
+            RequestedLocalAddress=0.0.0.0
+            OldRequestedLocalAddress=192.168.98.1
+            ConnectAtBoot=TRUE
+            ConnectSignal=
+            ConnectSignal_Name=
+            ConnectedSignal=
+            ConnectedSignal_Name=
+            UseRemoteAsGW=FALSE
+            LogonScript_0=
+            LogonScript_1=
+            LogonScript_2=
+            LogonScript_3=
+            LogonScript_4=
+            LogonScript_5=
+            LogonScript_6=
+            LogonScript_7=
+            LogonScript_8=
+            LogonScript_9=
+
+            [[[[NetConn]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            ConnectionName=
+            ConfigurationType=Manual
+            NetInterface=Ethernet
+            TerminalAddress=192.168.1.1
+            DNS1=0.0.0.0
+            DNS2=0.0.0.0
+            Gateway=0.0.0.0
+            Subnetmask=255.255.255.0
+            ConnectionNumber=2
+            ConnectionName=
+            ConfigurationType=Manual
+            TerminalAddress=192.168.1.1
+            DNS1=0.0.0.0
+            DNS2=0.0.0.0
+            Gateway=0.0.0.0
+            Subnetmask=255.255.255.0
+            ConnectionNumber=2
+            SerialProtocol=PPP
+            Security=PAP
+            UseVJCompression=TRUE
+            UseLogonScript=FALSE
+            UserName=
+            Password=
+            ModemEnabled=FALSE
+            ModemDisconnectIdle=0
+            ModemTelephoneNumber=
+            ModemSetupString=
+            ActAsServer=0
+            RequestRemoteAddress=TRUE
+            RequestedRemoteAddress=0.0.0.0
+            OldRequestedRemoteAddress=192.168.98.2
+            RequestLocalAddress=TRUE
+            RequestedLocalAddress=0.0.0.0
+            OldRequestedLocalAddress=192.168.98.1
+            ConnectAtBoot=TRUE
+            ConnectSignal=
+            ConnectSignal_Name=
+            ConnectedSignal=
+            ConnectedSignal_Name=
+            UseRemoteAsGW=FALSE
+            LogonScript_0=
+            LogonScript_1=
+            LogonScript_2=
+            LogonScript_3=
+            LogonScript_4=
+            LogonScript_5=
+            LogonScript_6=
+            LogonScript_7=
+            LogonScript_8=
+            LogonScript_9=
+
+        [[[NetAccounts]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+
+        [[[SetupMultiLanguage]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Enable=TRUE
+        IO=
+        IO_Name=
+        CharSet_0=Unicode
+        CharSet_1=Unicode
+        CharSet_2=Unicode
+        CharSet_3=Unicode
+        CharSet_4=Unicode
+        CharSet_5=Unicode
+        CharSet_6=Unicode
+        CharSet_7=Unicode
+        CharSet_8=Unicode
+        CharSet_9=Unicode
+        SysLang_0=0
+        SysLang_1=0
+        SysLang_2=0
+        SysLang_3=0
+        SysLang_4=0
+        SysLang_5=0
+        SysLang_6=0
+        SysLang_7=0
+        SysLang_8=0
+        SysLang_9=0
+        UnicodeLang_0=8
+        UnicodeLang_1=0
+        UnicodeLang_2=0
+        UnicodeLang_3=0
+        UnicodeLang_4=0
+        UnicodeLang_5=0
+        UnicodeLang_6=0
+        UnicodeLang_7=0
+        UnicodeLang_8=0
+        UnicodeLang_9=0
+        SystenLangFont_0=8x16
+        SystenLangFont_1=8x16
+        SystenLangFont_2=8x16
+        SystenLangFont_3=8x16
+        SystenLangFont_4=8x16
+        SystenLangFont_5=8x16
+        SystenLangFont_6=8x16
+        SystenLangFont_7=8x16
+        SystenLangFont_8=8x16
+        SystenLangFont_9=8x16
+        Text_0=@2
+        Text_1=@2
+        Text_2=@2
+        Text_3=@2
+        Text_4=@2
+        Text_5=@2
+        Text_6=@2
+        Text_7=@2
+        Text_8=@2
+        Text_9=@2
+
+        [[[SetupTransparentCfg]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        Mode=Transparent
+        Controller=Controller1
+        TimeOut=5
+
+        [[[EkeyContainer]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+
+        [[[SetupIOTimegroups]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        IOTimegroupDrv1_0=25
+        IOTimegroupDrv1_1=400
+        IOTimegroupDrv1_2=400
+        IOTimegroupDrv1_3=400
+        IOTimegroupDrv2_0=25
+        IOTimegroupDrv2_1=400
+        IOTimegroupDrv2_2=400
+        IOTimegroupDrv2_3=400
+
+        [[[SetupCFCard]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        LoadProjectOnCFCardAutomatically=TRUE
+        LoadProjectOnCFCardConfirmQuestion=AskAlways
+
+        [[[SetupRuntimeFonts]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        MenuFontField=TrueType_2,8x8,0,0,0,0
+        InputFontField=TrueType_2,8x8,0,0,0,0
+        FormFontField=TrueType_2,8x8,0,0,0,0
+        KeyFieldFontField=TrueType_2,8x8,0,0,0,0
+
+        [[[SetupBeppExpansionPort]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        BeppExpansionModuleType=Not used
+
+    [[Driver]]
+    DriverIndex=1
+    ProgID=
+    Protocol=0
+    IP_Addr=192.168.98.2
+    bTCP=1
+    Ethernet_Port=6004
+    My_Port=0
+    LowPoll=10
+    Timeout=2000
+    Retries=3
+    [[Driver]]
+    DriverIndex=2
+    ProgID=
+    [[Driver]]
+    DriverIndex=8
+    ProgID=
+    InternalMDevices=0
+    InternalDDevices=0
+    InternalBupMDevices=0
+    InternalBupDDevices=0
+    [[Text library]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+
+        [[[Text library table]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=1000
+        Descr=Language 1
+        Lang=TRUE
+        UniCode=TRUE
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=15
+            UniCode=TRUE
+            TextW=043F 0435 0440 0435 043A 043B 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=14
+            UniCode=TRUE
+            TextW=043A 0430 0440 0435 0442 043A 0430 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=12
+            UniCode=TRUE
+            TextW=043D 0430 0437 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=11
+            UniCode=TRUE
+            TextW=043F 0440 043E 0434 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=8
+            UniCode=TRUE
+            TextW=043F 0443 0441 043A 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=7
+            UniCode=TRUE
+            TextW=0045 0058 0049 0054 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=6
+            UniCode=TRUE
+            TextW=0054 0049 004D 0045 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=5
+            UniCode=TRUE
+            TextW=002B 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=4
+            UniCode=TRUE
+            TextW=0049 004E 0046 004F 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=3
+            UniCode=TRUE
+            TextW=0041 0043 004B 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=2
+            UniCode=TRUE
+            TextW=0041 0041 004F 0061 0061 006F 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=1
+            UniCode=TRUE
+            TextW=0044 0045 0046 0041 0055 004C 0054 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=0
+            UniCode=TRUE
+            TextW=
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=28
+            UniCode=TRUE
+            TextW=043D 0430 0437 0430 0434 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=25
+            UniCode=TRUE
+            TextW=0440 043E 043B 044C 0433 0430 043D 0433 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=24
+            UniCode=TRUE
+            TextW=0410 0432 0442 043E 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=23
+            UniCode=TRUE
+            TextW=0432 0440 0430 0449 0435 043D 0438 0435 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=22
+            UniCode=TRUE
+            TextW=0442 0438 0441 043A 0438 0020 0442 0440 0443 0431 044B 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=20
+            UniCode=TRUE
+            TextW=0432 043F 0435 0440 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=17
+            UniCode=TRUE
+            TextW=0413 0421 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=16
+            UniCode=TRUE
+            TextW=0432 043F 0435 0440 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=47
+            UniCode=TRUE
+            TextW=0437 0430 0436 0438 043C 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=41
+            UniCode=TRUE
+            TextW=0440 0430 0437 0436 0438 043C 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=38
+            UniCode=TRUE
+            TextW=0440 043E 043B 044C 0433 0430 043D 0433 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=37
+            UniCode=TRUE
+            TextW=0440 0443 0447 043D 043E 0439 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=34
+            UniCode=TRUE
+            TextW=0446 0438 043A 043B 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=51
+            UniCode=TRUE
+            TextW=0432 0432 0435 0440 0445 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=71
+            UniCode=TRUE
+            TextW=0437 0430 0432 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=88
+            UniCode=TRUE
+            TextW=043E 0442 0432 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=84
+            UniCode=TRUE
+            TextW=0432 043D 0438 0437 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=138
+            UniCode=TRUE
+            TextW=0443 0441 0442 0430 043D 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=134
+            UniCode=TRUE
+            TextW=0442 0440 0430 043D 0441 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=189
+            UniCode=TRUE
+            TextW=0437 0430 0436 0438 043C 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=185
+            UniCode=TRUE
+            TextW=0442 0438 0441 043A 0438 0020 043C 0443 0444 0442 044B 
+
+            [[[[Text language library text]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            No=198
+            UniCode=TRUE
+            TextW=0440 0430 0437 0436 0438 043C 
+    [[Password]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    IOLogin=
+    IOLogin_Name=
+    IOLogout=
+    IOLogout_Name=
+    Password_0=
+    Password_1=
+    Password_2=
+    Password_3=
+    Password_4=
+    Password_5=
+    Password_6=
+    Password_7=
+    Name_0=
+    Name_1=
+    Name_2=
+    Name_3=
+    Name_4=
+    Name_5=
+    Name_6=
+    Name_7=
+    TimeoutLimit=0
+    ConfirmText_0=
+    ConfirmText_1=
+    ConfirmText_2=
+    ConfirmText_3=
+    ConfirmText_4=
+    ConfirmText_5=
+    ConfirmText_6=
+    ConfirmText_7=
+    IOCurrentLevel=
+    IOCurrentLevel_Name=
+    PasswordRunProg=
+    IOLoginLevel=
+    IOLoginLevel_Name=
+    AutoLogin=FALSE
+    [[BlockContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=0
+        Name=Main
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=M0
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=1
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=4
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=2
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+            [[[[GrClockDigital]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=189
+            y=5
+            Font=TrueType_2,48x8,0,0,0,0
+            Weekday=FALSE
+            Time=TRUE
+            Date=FALSE
+            Man=FALSE
+            Frame=FALSE
+            SecurityLevel=0
+            AMPM=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=79
+            y=53
+            Font=TrueType_2,36x8,0,0,0,0
+            Text=@37
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=48
+            y=54
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@24
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=16
+            y=56
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@17
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=10
+            y=44
+            Font=TrueType_2,25x8,0,0,0,0
+            Text=@8
+            Adjust=Left
+            Frame=FALSE
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=1
+        Name=avto
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=1
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=M400
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Momentary
+                IO=M402
+                IO_Name=
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+            [[[[GrClockDigital]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=189
+            y=5
+            Font=TrueType_2,48x8,0,0,0,0
+            Weekday=FALSE
+            Time=TRUE
+            Date=FALSE
+            Man=FALSE
+            Frame=FALSE
+            SecurityLevel=0
+            AMPM=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=49
+            y=52
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@11
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=1
+            x=14
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=1
+                    PropertyName=SYMBOL
+                    IO=M400
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=10
+            y=52
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@34
+            Adjust=Left
+            Frame=FALSE
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=2
+        Name=ruchnoy
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=1
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=3
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=4
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+            [[[[GrClockDigital]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=189
+            y=5
+            Font=TrueType_2,48x8,0,0,0,0
+            Weekday=FALSE
+            Time=TRUE
+            Date=FALSE
+            Man=FALSE
+            Frame=FALSE
+            SecurityLevel=0
+            AMPM=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=47
+            y=52
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@138
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=10
+            y=52
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@134
+            Adjust=Left
+            Frame=FALSE
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=3
+        Name=transport
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=1
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y11
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y10
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=4
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y46
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=5
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=M405
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=6
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=M406
+                IO_Name=
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+            [[[[GrClockDigital]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=189
+            y=5
+            Font=TrueType_2,48x8,0,0,0,0
+            Weekday=FALSE
+            Time=TRUE
+            Date=FALSE
+            Man=FALSE
+            Frame=FALSE
+            SecurityLevel=0
+            AMPM=FALSE
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=6
+            x=172
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=6
+                    PropertyName=SYMBOL
+                    IO=M406
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=5
+            x=133
+            y=35
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=5
+                    PropertyName=SYMBOL
+                    IO=M405
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=4
+            x=93
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=4
+                    PropertyName=SYMBOL
+                    IO=Y46
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=3
+            x=51
+            y=38
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=3
+                    PropertyName=SYMBOL
+                    IO=Y10
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=2
+            x=14
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=2
+                    PropertyName=SYMBOL
+                    IO=Y11
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=165
+            y=54
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@84
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=125
+            y=55
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@51
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=137
+            y=21
+            Font=TrueType_2,48x8,0,0,0,0
+            Text=@38
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=83
+            y=21
+            Font=TrueType_2,36x8,0,0,0,0
+            Text=@15
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=51
+            y=54
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@16
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=10
+            y=55
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@12
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=18
+            y=20
+            Font=TrueType_2,48x8,0,0,0,0
+            Text=@25
+            Adjust=Left
+            Frame=FALSE
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=4
+        Name=ustanovka 1
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=1
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y22
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y20
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=4
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=M410
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=5
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=M403
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=6
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y16
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=7
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y13
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=8
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=5
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+            [[[[GrClockDigital]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=189
+            y=5
+            Font=TrueType_2,48x8,0,0,0,0
+            Weekday=FALSE
+            Time=TRUE
+            Date=FALSE
+            Man=FALSE
+            Frame=FALSE
+            SecurityLevel=0
+            AMPM=FALSE
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=13
+            x=205
+            y=36
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=13
+                    PropertyName=SYMBOL
+                    IO=Y13
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=12
+            x=172
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=12
+                    PropertyName=SYMBOL
+                    IO=Y16
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=10
+            x=133
+            y=35
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=10
+                    PropertyName=SYMBOL
+                    IO=M403
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=9
+            x=93
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=9
+                    PropertyName=SYMBOL
+                    IO=M410
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=8
+            x=51
+            y=38
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=8
+                    PropertyName=SYMBOL
+                    IO=Y20
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=7
+            x=14
+            y=37
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=7
+                    PropertyName=SYMBOL
+                    IO=Y22
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=206
+            y=53
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@88
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=172
+            y=53
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@71
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=174
+            y=22
+            Font=TrueType_2,53x8,0,0,0,0
+            Text=@23
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=124
+            y=52
+            Font=TrueType_2,36x8,0,0,0,0
+            Text=@41
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=88
+            y=53
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@47
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=94
+            y=23
+            Font=TrueType_2,66x8,0,0,0,0
+            Text=@22
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=4
+            y=54
+            Font=TrueType_2,36x8,0,0,0,0
+            Text=@198
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=47
+            y=54
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@189
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=9
+            y=23
+            Font=TrueType_2,66x8,0,0,0,0
+            Text=@185
+            Adjust=Left
+            Frame=FALSE
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=5
+        Name=ustanovka2
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=1
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=4
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y34
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=I/O
+                SecurityLevel=0
+                IOEventType=Toggle
+                IO=Y33
+                IO_Name=
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=8
+                Type=BlockJump
+                SecurityLevel=0
+                IOEventType=Momentary
+                BlockNo=3
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+            [[[[GrClockDigital]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=189
+            y=5
+            Font=TrueType_2,48x8,0,0,0,0
+            Weekday=FALSE
+            Time=TRUE
+            Date=FALSE
+            Man=FALSE
+            Frame=FALSE
+            SecurityLevel=0
+            AMPM=FALSE
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=15
+            x=52
+            y=35
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=15
+                    PropertyName=SYMBOL
+                    IO=Y33
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticSymbol]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=14
+            x=14
+            y=35
+            xSize=0
+            ySize=0
+            Symbol=AG2.bmp
+            Transparent=FALSE
+            Dynamic=FALSE
+                [[[[[FuncContainer]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+
+                    [[[[[[DigitalProperty]]]]]]
+                    CreateTime=20190913
+                    ModTime=20190913
+                    Doc=
+                    ObjectId=14
+                    PropertyName=SYMBOL
+                    IO=Y34
+                    IO_Name=
+                    OffValue=AG2.bmp
+                    OnValue=AG2B.bmp
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=46
+            y=52
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@28
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=10
+            y=53
+            Font=TrueType_2,30x8,0,0,0,0
+            Text=@20
+            Adjust=Left
+            Frame=FALSE
+
+            [[[[GrStaticText]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            x=20
+            y=21
+            Font=TrueType_2,42x8,0,0,0,0
+            Text=@14
+            Adjust=Left
+            Frame=FALSE
+
+        [[[GraphicBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=990
+        Name=Alarms
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        PreloadBlock=FALSE
+        PreloadBlockNo=0
+        CursorThickness=1
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=2
+                Type=List
+                SecurityLevel=0
+                IOEventType=Momentary
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=3
+                Type=AlarmAck
+                SecurityLevel=0
+                IOEventType=Momentary
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=4
+                Type=AlarmInfo
+                SecurityLevel=0
+                IOEventType=Momentary
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=5
+                Type=ZoomUp
+                SecurityLevel=0
+                IOEventType=Momentary
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=6
+                Type=Info
+                SecurityLevel=0
+                IOEventType=Momentary
+
+                [[[[[Key]]]]]
+                CreateTime=20190913
+                ModTime=20190913
+                Doc=
+                ObjectId=0
+                No=7
+                Type=Return
+                SecurityLevel=0
+                IOEventType=Momentary
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=@3
+            Upper_2=
+            Lower_2=@4
+            Upper_3=
+            Lower_3=@5
+            Upper_4=
+            Lower_4=@6
+            Upper_5=
+            Lower_5=@7
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+        [[[SystemBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=991
+        Name=Time Channels
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+
+        [[[SystemBlock]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        No=993
+        Name=Mail
+        IODisplay=
+        IODisplay_Name=
+        IOPrinter=
+        IOPrinter_Name=
+        IOPrCompl=
+        IOPrCompl_Name=
+        PrComplIOReset=FALSE
+        StatusWord=0
+        SecurityLevel=0
+        MailToSignal=
+        MailToSignal_Name=
+        IOMailCompl=
+        IOMailCompl_Name=
+        MailComplIOReset=FALSE
+        MailTo=
+        MailAttach=
+        RecipeDirectory=0
+            [[[[KeyContainer]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            [[[[KeyField]]]]
+            CreateTime=20190913
+            ModTime=20190913
+            Doc=
+            ObjectId=0
+            Size=1
+            ShowEmpty=FALSE
+            Upper_0=
+            Lower_0=
+            Upper_1=
+            Lower_1=
+            Upper_2=
+            Lower_2=
+            Upper_3=
+            Lower_3=
+            Upper_4=
+            Lower_4=
+            Upper_5=
+            Lower_5=
+            Upper_6=
+            Lower_6=
+            Upper_7=
+            Lower_7=
+            Upper_8=
+            Lower_8=
+            Upper_9=
+            Lower_9=
+    [[TimeChContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[AlarmContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[KeyContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[LEDContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[SymbolContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[AlarmGroupContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+
+        [[[AlarmGroup]]]
+        CreateTime=20190913
+        ModTime=20190913
+        Doc=
+        ObjectId=0
+        GroupName=@1
+        IOActive=
+        IOActive_Name=
+        IOUnAck=
+        IOUnAck_Name=
+        IOGrpAck=
+        IOGrpAck_Name=
+    [[DocHeader]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    Text1=
+    Text2=
+    Text3=
+    Text4=
+    Text5=
+    Text6=
+    Text7=
+    Text8=
+    Text9=
+    Text10=
+    Text11=
+    Text12=
+    DrawNo=
+    Date=
+    RevDate=
+    RevNo=
+    Sign=
+    PLCProgram=
+    Project=
+    System=
+    Type=
+    Page=
+    Logo=
+    [[SetupPrinter]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    HeaderSize=Large
+    HeaderLocation=Bottom
+    BoldPrompt=TRUE
+    BoldPrompt=TRUE
+    [[BlockDiagramSettings]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    BlockNameLOGFONT=8,-11,0,0,0,0,0,0,0,0,4,0,0,0,Arial
+    BlockNoLOGFONT=8,-11,0,0,0,0,0,0,0,0,4,0,0,0,Arial
+    Block3DLook=TRUE
+    BlockDrawName=TRUE
+    BlockDrawNo=FALSE
+    BlockDrawIO=FALSE
+    ColorBlockGraph=255,0,0
+    ColorBlockText=0,255,0
+    ColorBlockSystem=0,0,255
+    ColorBlockPseudo=255,255,255
+    ColorBlockTextName=0,0,0
+    ColorBlockTextName=0,0,0
+    RefDrawToHigher=FALSE
+    RefDrawToSame=FALSE
+    RefDrawToLower=TRUE
+    Ref3DLook=TRUE
+    RefDrawStraight=TRUE
+    ColorRefText=0,0,0
+    EditInsertKeyField=TRUE
+    EditDelKeyField=TRUE
+    EditDelRef=TRUE
+    Scale=100
+    OpenNewBlock=TRUE
+    [[TextStripContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[IONamingContainer]]
+    DriverIndex=1
+    [[IONamingContainer]]
+    DriverIndex=2
+    [[IONamingContainer]]
+    DriverIndex=8
+    [[MacrosContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[SetupRecipeSignals]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    EnableDirectories=FALSE
+    Directory=DEFAULT
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    Directory=
+    [[DriverDataExchangeContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
+    [[LoggerContainer]]
+    CreateTime=20190913
+    ModTime=20190913
+    Doc=
+    ObjectId=0
